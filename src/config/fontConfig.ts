@@ -89,7 +89,7 @@ export const fontConfig: FontConfig = withUserConfig("font", {
 			source: "local",
 			variants: [
 				{
-					file: "src/assets/fonts/Yozai-Medium.ttf",
+					file: "src/assets/fonts/NotoSansHans-Regular-2.ttf",
 					weight: 500,
 					style: "normal",
 				},
