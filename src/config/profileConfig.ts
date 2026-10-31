@@ -6,26 +6,41 @@ import { withUserConfig } from "../utils/config-overlay.ts";
  * 类型见 src/types/config.ts。
  */
 export const profileConfig: ProfileConfig = withUserConfig("profile", {
-	avatar: "assets/images/demo-avatar.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Shirone",
-	bio: "The rain remembers what the sky forgot to say.",
+	avatar: "assets/images/toux.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	name: "ComicPython6045",
+	bio: "雨记得天空忘记说的话",
 	links: [
 		{
 			name: "X",
 			icon: "fa7-brands:x-twitter", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://x.com",
-		},
-		{
-			name: "Steam",
-			icon: "fa7-brands:steam",
-			url: "https://store.steampowered.com",
+			url: "https://x.com/Louxiaawa",
 		},
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/LyraVoid/Shirone",
+			url: "https://github.com/ComicPython2703/",
+		},
+		{
+			name: "BiliBili",
+			icon: "fa7-brands:bilibili",
+			url: "https://space.bilibili.com/514391322",
+		},
+		{
+			name: "Facebook",
+			icon: "fa7-brands:facebook-square",
+			url: "https://facebook.com/profile.php?id=61590942825253",
+		},
+		{
+			name: "instagram",
+			icon: "fa7-brands:instagram",
+			url: "https://instagram.com/louawalou",
+		},
+		{
+			name: "YouTube",
+			icon: "fa7-brands:youtube",
+			url: "https://www.youtube.com/@Louxiaawa",
 		},
 	],
 });
