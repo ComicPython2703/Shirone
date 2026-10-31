@@ -14,24 +14,6 @@ import type { GameItem } from "@/types/gamesConfig";
 
 export const gamesData: GameItem[] = [
 	{
-		id: "nte-neverness-to-everness",
-		name: "NTE: Neverness to Everness",
-		developer: "Hotta Studio",
-		category: "open-world",
-		status: "playing",
-		cover: "assets/games/yihuan-hero.jpg",
-		icon: "material-symbols:explore-outline-rounded",
-		rating: 4.5,
-		hours: 86,
-		platform: "PC",
-		year: "2026",
-		tags: ["Open World", "Urban", "Supernatural"],
-		description:
-			"A supernatural urban open-world RPG. As an anomaly-user who senses the “waves” of people and anomalies, you join E.T.D Squad Six and investigate the city's paranormal events.",
-		link: "https://yh.wanmei.com/main.html",
-		featured: true,
-	},
-	{
 		id: "minecraft",
 		name: "Minecraft",
 		developer: "Mojang Studios",
@@ -48,4 +30,20 @@ export const gamesData: GameItem[] = [
 			"A blocky sandbox where you mine, craft and build across procedurally generated worlds. Survive the night, or just keep building — alone or with friends.",
 		link: "https://www.minecraft.net/",
 	},
+	{
+		id: "dealtaforce",                // 唯一标识（禁用列表按它命中）
+		name: "三角洲行动(国际服)",              // 游戏名称
+		developer: "Level inifine",    // 开发商
+		category: "action",            // 分类，引用 config 中的 key
+		status: "playing",              // 游玩状态
+		icon: "material-symbols:widgets-rounded", // 无封面时的图标
+		rating: 5,                      // 评分（0–5，支持 0.5 步进）
+		hours: 420,                     // 已游玩时长（小时）
+		platform: "Mobile(Android)",                 // 平台
+		year: "2025",                   // 发行年份
+		tags: ["action"],  // 类型标签（卡片上的 chips）
+		description: "方块世界沙盒游戏……", // 简评
+		link: "https://www.playdeltaforce.com/", // 商店页/官网链接
+		featured: true,                 // Featured 推荐徽章
+  },
 ];
