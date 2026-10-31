@@ -33,7 +33,7 @@ export const profileConfig: ProfileConfig = withUserConfig("profile", {
 			url: "https://facebook.com/profile.php?id=61590942825253",
 		},
 		{
-			name: "instagram",
+			name: "Instagram",
 			icon: "fa7-brands:instagram",
 			url: "https://instagram.com/louawalou",
 		},
@@ -41,6 +41,26 @@ export const profileConfig: ProfileConfig = withUserConfig("profile", {
 			name: "YouTube",
 			icon: "fa7-brands:youtube",
 			url: "https://www.youtube.com/@Louxiaawa",
+		},
+		{
+			name: "Reddit",
+			icon: "fa7-brands:reddit",
+			url: "https://reddit.com/user/ComicPython6045",
+		},
+		{
+			name: "QQ空间",
+			icon: "simple-icons:qzone",
+			url: "https://user.qzone.qq.com/2648280695",
+		},
+		{
+			name: "LinkedIn",
+			icon: "fa7-brands:linkedin",
+			url: "https://linkedin.com/in/下-楼-042053376",
+		},
+		{
+			name: "Steam",
+			icon: "fa7-brands:steam",
+			url: "https://steamcommunity.com/profiles/76561199817722073",
 		},
 	],
 });
