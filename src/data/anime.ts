@@ -52,7 +52,7 @@ export const animeData: AnimeItem[] = [
 		status: "completed",
 		rating: 0.0,
 		progress: { watched: 0, total: 0 },
-		description: "NO DATA!",
+		description: "NO DATA",
 		year: "NO DATA",
 		studio: "NO DATA",
 		genres: ["NO DATA"],
