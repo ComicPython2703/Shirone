@@ -40,6 +40,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://m3.material.io",
 		tags: ["Design"],
 	},
+	{
+		id: 4,
+		title: "我的其他网站合集",
+		imgurl: "",
+		desc: "其他网站的连接都在这里",
+		siteurl: "https://louxiaawa.pages.dev",
+		tags: ["Pages"],
+	},
 ];
 
 // 获取所有友情链接数据（稳定顺序，测试可复现）
